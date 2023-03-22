@@ -64,7 +64,48 @@
     padding: 10px;
 }
 
+.Product__path {
+    display: flex;
+}
+
+.Product__path--items {
+    padding: 5px;
+}
+
+.Product_home {
+    color: gray;
+}
+
+.Product_Category {
+    color: gray;
+}
+
 .Product__header {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
+}
+
+.Product__Evaluate {
+    display: flex;
+    padding: 2px;
+}
+
+.Product__picture {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+}
+
+.Product__picture .Product__picture--center {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.Product__picture--right {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.test {
+    background-color: red;
 }
