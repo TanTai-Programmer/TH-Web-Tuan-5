@@ -152,7 +152,8 @@
 .Product__Description{
     display: grid;
     grid-template-columns: 845px 345px;
-    padding-top:10px
+    padding:10px 0 45px ;
+
 }
 
 .Product__Description__container{
@@ -165,10 +166,7 @@
 .Product__Description__container-content{
     padding:20px 0px;
 }
-.Product_Description_info{
-    width: 345px;
-    height: 390px;
-}
+
 .Product__Description__container--items{
     display:grid;
     grid-template-columns: 200px auto;
@@ -181,4 +179,168 @@
 }
 #Description-items p{
     padding:0px 10px;
+}
+.Product__Description__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 345px;
+    height: 390px;
+    background-color: #9cb78b;
+    border-radius: 5px;
+    border: 1px solid rgba(135,135,135,0.5)
+}
+.Product__Description__info--price{
+    Color:#00bdd6;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Product__Description__info--Sum{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.Product__Description__info--Sum--index{
+    color:#717884;
+}
+.Product__Description__info--Sum--price{
+    font-weight:bold;
+}
+
+.Product__Description__info--buy{
+    height: 45px;
+    width: 300px;
+    color: white;
+    font-size:18px;
+    background-color:#00bdd6;
+    border: none;
+    border-radius: 5px;
+}
+.Product__Description__info--Addcart{
+    width:300px;
+    height: 45px;
+    background: white;
+    color: #00bdd6;
+    border: 1px solid #00bdd6;
+    border-radius: 5px;
+    margin-top:5px;
+}
+.Product__Reviews{
+    padding:50px 0;
+    border-top: 1px solid rgba(135,135,135,0.2);
+    border-bottom: 1px solid rgba(135,135,135,0.2);
+}
+.Product__Review__header{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.Product__Review__header #Reviews_title{
+    font-weight: bold;
+    font-size:30px;
+}
+.Product__Review__header img{
+    padding-left:20px;
+}
+.Product__Review__header--Star{
+    display: flex;
+}
+.Product__Review__header--Star #ToTal{
+    padding:0 5px;
+    font-weight: bold;
+}
+.Product__Review__header--Star #ToTal_Review{
+    padding:0 5px;
+    color:#717884;
+}
+.Product__Reviews__container{
+    display:grid;
+    grid-template-columns: 600px 600px;
+}
+.Product__Reviews__containeritem{
+    padding: 20px 0px;
+}
+.Product__Reviews__containeritem--User{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.Product__Reviews__containeritem--User--Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding:10px;
+}
+.Product__Reviews__containeritem--User--Info--Name{
+    display: flex;
+}
+.Product__Reviews__containeritem--User--Info--Name #Name_User{
+    font-weight: bold;
+}
+.Product__Reviews__containeritem--User--Info--Name #Time{
+    color:#717884;
+    padding:0 10px;
+}
+.Product__Related__header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+.Product__Related__header--main{
+    font-size: 30px;
+    font-weight:bold;
+
+}
+.Product_Related__header--seemore{
+    display: flex;
+    align-items:center;
+    color:#717884;
+}
+.Product_Related__header--seemore img{
+    width:24px;
+    padding:10px;
+}
+.Product__Related__main{
+    display: flex;
+    justify-content:space-between;
+}
+.Product__Related__items{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width:285px;
+    height: 355px;
+    border-radius: 10px;
+    border: 1px solid rgba(135,135,135,0.2)
+}
+.Product__Related__items--picture{
+    height: 240px;
+}
+.Product__Related__items--title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.Product__Related__items--title--header{
+    font-size: 24px;
+    font-weight: bold;
+}
+.Product__Related__items--price{
+    color:#00bdd6;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left:10px;
+}
+.Product__Related__items--rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.Product__Related__items--rating--sold{
+    color:#717884;
 }
