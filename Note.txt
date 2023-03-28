@@ -1,0 +1,2 @@
+Ghi chú: Code ở nhánh main
+Bấm chọn nhánh main để xem commit mới nhất
