@@ -381,6 +381,7 @@
     height: 570px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 .Product__footer__Logo{
@@ -389,6 +390,9 @@
     justify-content: space-around;
     align-items: center;
 }
+.Product__footer__Logo img{
+    padding:40px;
+}
 .Product__footer__Logo--title{
     font-size: 30px;
     font-weight: bold;
@@ -396,6 +400,7 @@
 .Product__footer__Logo--input{
     display: flex;
     align-items:center;
+    padding:25px;
 }
 .Product__footer__Logo--input input{
     width:260px;
@@ -436,6 +441,7 @@
     padding:10px 0px;
 }
 .Product__footer__Copyright{
+    width: 100%;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -448,3 +454,19 @@
     border:none;
     padding:10px;
 }
+.Product__footer__Copyright--info{
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    color: #717884;
+}
+.Product__footer__Copyright--info ul{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:10px;
+}
+.Product__footer__Copyright--info ul li{
+    margin:0 15px;
+}
+
