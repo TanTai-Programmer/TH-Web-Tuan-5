@@ -187,7 +187,6 @@
     align-items: center;
     width: 345px;
     height: 390px;
-    background-color: #9cb78b;
     border-radius: 5px;
     border: 1px solid rgba(135,135,135,0.5)
 }
@@ -195,6 +194,36 @@
     Color:#00bdd6;
     font-size: 30px;
     font-weight: bold;
+}
+.Product__Description__info--Color{
+    width: 300px;
+    height: 35px;
+    border-radius:5px;
+    background-color: #f3f4f6;
+    border:none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.Product__Description__info--Size{
+    width: 300px;
+    height: 35px;
+    border-radius:5px;
+    background-color: #f3f4f6;
+    border:none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.Product__Description__info--Total{
+    width: 300px;
+    height: 35px;
+    border-radius:5px;
+    background-color: #f3f4f6;
+    border:none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
 }
 .Product__Description__info--Sum{
     display: flex;
